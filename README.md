@@ -2,14 +2,22 @@
 
  This project helps to calculate average grade of subjects
 
- ## Overview
+ ## Overall score
 
  Here are what i used in this project : 
 
  * Console input/output
  * Converting Data types
- * Calculation to find an average
+ * Calculation to find an overall grade
+ * ` if,else  ` statement
 
- ![](./Assets/Screenshot%202023-07-21%20at%2008.02.29.png)
+ ![](./Assets/Averagely%20gif%201.gif)
+
+ ## Average score 
+
+ * Statements are the same with overall part
+
+![](./Assets/Gif%202.gif)
+
 
 
