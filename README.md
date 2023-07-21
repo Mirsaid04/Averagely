@@ -15,7 +15,7 @@
 
  ## Average score 
 
- * Statements are the same with overall part
+ * Statements are the same with `Overall` part
 
 ![](./Assets/Gif%202.gif)
 
