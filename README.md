@@ -8,16 +8,14 @@
 
  * Console input/output
  * Converting Data types
- * Calculation to find an overall grade
- * ` if,else  ` statement
+ * Calculation to find **overall** and **average** grades
+ * ` Switch  ` statement
 
- ![](./Assets/Averagely%20gif%201.gif)
+ ![](./Assets/overall%20grade%20gif.gif)
 
- ## Average score 
+ ## Average score
 
- * Statements are the same with `Overall` part
-
-![](./Assets/Gif%202.gif)
+![](./Assets/average%20grade%20gif.gif)
 
 
 
