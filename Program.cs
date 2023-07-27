@@ -4,12 +4,13 @@
     { 
         static void Main() 
         { 
+            string yesOrno=(""); 
+            do{
             Console.WriteLine("\n<---Hello , Welcome to our university---->\n");
             Console.WriteLine("Do you want to know your overall and average score?\n\n1.Overall\n2.Average\n ");
             Console.Write($"You should choose one of them {1} or {2} : ");
 
             int choosedNumber=int.Parse(Console.ReadLine()!);
-
             switch(choosedNumber)
             {
                 case 1:
@@ -56,10 +57,13 @@
                     Console.WriteLine(" --Thank you-- \n");      
                     break;
 
-                    default :
+                default :
                     Console.WriteLine("Sorry , you entered invalid input\n<---Try again later--->");
                     break;
-            }
+            };
+            Console.Write("Do you want to continue [y/n]: "); 
+            yesOrno=Console.ReadLine()!; 
+            }while(yesOrno=="y");
         } 
     } 
 }
