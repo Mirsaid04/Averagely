@@ -37,8 +37,8 @@ Have a look at `Program.cs` file and you can see how i used:
 
 V1.0
 
-This [version/v1.0]() was created to calculate basic parts of Average score and also it is being run only one time , i tried to fix it in my new version , let's check ...
+This [version/v1.0](https://github.com/Mirsaid04/Averagely/tree/releases/v1.0) was created to calculate basic parts of Average score and also it is being run only one time , i tried to fix it in my new version , let's check ...
 
 V2.0 
 
-This [version/v2.0]() is final part and also it is ready to calculate average and overall score . I made this version as non-stop run, even if you  don't click "n", it never stops. Thank you
+This [version/v2.0](https://github.com/Mirsaid04/Averagely/tree/releases/v2.0) is final part and also it is ready to calculate average and overall score . I made this version as non-stop run, even if you  don't click "n", it never stops. Thank you
