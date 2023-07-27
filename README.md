@@ -1,15 +1,27 @@
 # Averagely
 
- This project helps to calculate average grade of subjects
+## Overview 
 
- ## Overall score
+This is the fully ready project which can calculate the average and overall score of students.
 
- Here are what i used in this project : 
+Have a look at `Program.cs` file and you can see how i used:
 
  * Console input/output
  * Converting Data types
- * Calculation to find **overall** and **average** grades
- * ` Switch  ` statement
+ * Calculation to find ***overall*** and ***average*** grades
+ * ` Switch  ` statement ->
+
+ Case 1 :
+
+ ![](./Assets/switch%20case%201)
+
+ Case 2 :
+
+ ![](./Assets/CASE%202)
+
+ ### Here are videos --> 
+
+## Overall score
 
  ![](./Assets/overall%20grade%20gif.gif)
 
@@ -17,5 +29,16 @@
 
 ![](./Assets/average%20grade%20gif.gif)
 
+## Non-stop part
 
+![](./Assets/Nonnn.gif)
 
+## Releases Note
+
+V1.0
+
+This [version/v1.0]() was created to calculate basic parts of Average score and also it is being run only one time , i tried to fix it in my new version , let's check ...
+
+V2.0 
+
+This [version/v2.0]() is final part and also it is ready to calculate average and overall score . I made this version as non-stop run, even if you  don't click "n", it never stops. Thank you
