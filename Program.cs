@@ -4,6 +4,8 @@
     { 
         static void Main() 
         { 
+            try
+            {
             string yesOrno=(""); 
             do{
             Console.WriteLine("\n<---Hello , Welcome to our university---->\n");
@@ -64,6 +66,20 @@
             Console.Write("Do you want to continue [y/n]: "); 
             yesOrno=Console.ReadLine()!; 
             }while(yesOrno=="y");
+            }
+             catch(FormatException FormatException)
+            {
+                Console.WriteLine("Opps,We could not convert your input value.");
+                Console.WriteLine("Look like the value you provided is not integer.");
+            }
+            catch(OverflowException OverflowException)
+            {
+                Console.WriteLine("Value you provided was either too large or too small. ");
+            }
+            catch(Exception exception)
+            {
+                Console.WriteLine("Opps,something went wrong , contact support");
+            }
         } 
     } 
 }
