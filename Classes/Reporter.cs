@@ -1,6 +1,8 @@
+using averagely.Interfaces;
+
 namespace averagely.Classes;
 
-public class Reporter
+public class Reporter : IReporter
 {
     public void ShowMenu()
     {

@@ -1,4 +1,5 @@
 ﻿using averagely.Classes;
+using averagely.Interfaces;
 
 namespace averagely 
 { 
@@ -11,24 +12,24 @@ namespace averagely
                 var yesOrNo = ("");
             do
             {
-                Calculation calculate = new Calculation();
-                Reporter reporter = new Reporter();
-                reporter.ShowMenu();
+                ICalculation calculateR = new Calculation();
+                IReporter reporteR = new Reporter();
+                reporteR.ShowMenu();
                 int option = int.Parse(Console.ReadLine()!);
             switch(option)
             {
                 case 1:
-                    calculate.OverallCalculation();
-                    reporter.ShowGratitude();
+                    calculateR.OverallCalculation();
+                    reporteR.ShowGratitude();
                     break;
                 
                 case 2 :
-                    calculate.AverageCalculation();
-                    reporter.ShowGratitude();
+                    calculateR.AverageCalculation();
+                    reporteR.ShowGratitude();
                     break;
                 
                 default :
-                    reporter.ReportLastInfo();
+                    reporteR.ReportLastInfo();
                     break;
             };
             Console.Write("Do you want to continue [y/n]: "); 

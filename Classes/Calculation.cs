@@ -1,6 +1,8 @@
+using averagely.Interfaces;
+
 namespace averagely.Classes;
 
-public class Calculation
+public class Calculation:ICalculation
 {
     public  decimal OverallCalculation()
     {
