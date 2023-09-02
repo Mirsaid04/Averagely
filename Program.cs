@@ -9,7 +9,7 @@ namespace averagely
         { 
             try
             {
-                var yesOrNo = ("");
+                        var yesOrNo = ("");
             do
             {
                 ICalculation calculateR = new Calculation();
