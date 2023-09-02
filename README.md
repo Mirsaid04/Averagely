@@ -35,7 +35,8 @@ Have a look at `Program.cs` file and you can see how i used:
 
 [V3.0](https://github.com/Mirsaid04/Averagely/tree/releases/v3.0) `Program.cs` file appearance 
 
-![](./Assets/average.programcs)
+
+![](./Assets/Programfile)
 
 ## Releases Note
 
